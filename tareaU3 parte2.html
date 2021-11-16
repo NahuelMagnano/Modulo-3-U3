@@ -8,10 +8,15 @@
     <!-- Crear el código que reciba como parámetro un array de números y devuelva el mayor. -->
     <script type="text/javascript">
         var cantidad,numero,mayor;
+        cantidad = -3
 
-        cantidad = prompt('Ingrese la cantidad de numeros que desea ingresar: ');
-        cantidad = parseInt(cantidad);
-        mayor = 0;
+        while(cantidad <= 0){
+            cantidad = prompt('Ingrese la cantidad de numeros que desea ingresar: ');
+            cantidad = parseInt(cantidad);
+            mayor = 0;  
+            
+        }
+        
 
         for(var i = 0; i < cantidad; i++ ){
             number = prompt('Ingrese los números a comparar:');
