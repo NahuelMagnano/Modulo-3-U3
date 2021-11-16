@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Parte 2</title>
+    <!-- Crear el código que reciba como parámetro un array de números y devuelva el mayor. -->
+    <script type="text/javascript">
+        var cantidad,numero,mayor;
+
+        cantidad = prompt('Ingrese la cantidad de numeros que desea ingresar: ');
+        cantidad = parseInt(cantidad);
+        mayor = 0;
+
+        for(var i = 0; i < cantidad; i++ ){
+            number = prompt('Ingrese los números a comparar:');
+            number = parseInt(number);
+            if(number > mayor){
+                mayor = number;
+            }
+        }document.write('El número más grande de los ingresados es: '+ mayor);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
